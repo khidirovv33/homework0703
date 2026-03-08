@@ -274,3 +274,53 @@ gap: 10px;
   
     gap: 38px;
 }
+.compani{
+     font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: justify;
+    padding: 50px;   
+}
+
+.container4{
+   display: flex;
+    justify-content: space-around;
+}
+.box-cont4{
+    display: flex;
+    justify-content: space-around;
+   gap: 10px;
+}
+
+.box-text4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   border: 1px solid rgba(0, 0, 0, 0.174);
+padding: 20px;
+border-radius: 5px;
+}
+.peterochka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-peterochka{
+    display: flex;
+   gap: 100px;
+  align-items: center;
+}
+.btn-peterochka{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #D7B18D;
+}
+.text-peterochka{
+    font-weight: 600;
+}
