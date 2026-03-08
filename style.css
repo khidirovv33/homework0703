@@ -94,7 +94,7 @@ flex-direction: column;
    display: flex;
    justify-content: center;
   padding: 15px 10px;
-  
+  cursor: pointer;
     gap: 10px;
 }
 .btn-phone img{
@@ -199,4 +199,78 @@ align-items: center;
     align-items: baseline;
     text-align: justify;
     padding: 50px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+  
+
+.box-cont3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-border1{
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    padding: 30px 20px;
+    border-radius: 5px;
+       display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-data1{
+ 
+    color: rgba(0, 0, 0, 0.463);
+}
+.text-money{
+  font-weight: 600; 
+  font-size: 18px; 
+}
+.btn-gray1{
+    background-color: #D7B18D;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-gray2{
+    background: none;
+    
+     padding: 10px 15px;
+       border-radius: 5px;
+       cursor: pointer;
+}
+.container03{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-cont03{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+gap: 10px;
+
+}
+.box-border2{
+   border: 1px solid rgba(0, 0, 0, 0.174);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    gap: 30px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.green-color{
+    color: #65C793;
+}
+.row-cont3{
+    display: flex;
+
+  
+    gap: 38px;
 }
