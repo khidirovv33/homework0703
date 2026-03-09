@@ -41,6 +41,17 @@
 .cont-box1{
     font-size: 40px;
 }
+.text-right{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #28303D;
+    width: 20px;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
 .text-none{
     font-size: 25px;
     display: none;
@@ -137,6 +148,12 @@ border-radius: 5px;
     justify-content: space-between;
     align-items: center;
 }
+.job-cont1{
+    position: relative;
+    left: 40px;
+    font-weight: 600;
+    font-size: 38px;
+}
 
 .container1{
     display: flex;
@@ -147,12 +164,15 @@ border-radius: 5px;
 }
 
 .text-none{
+    position: relative;
+    left: 30px;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
  .cont-box1{
-    display: flex;
+    display: flex;  
     flex-direction: column;
     text-align: center;
     font-size: 40px;
@@ -391,6 +411,7 @@ display: flex;
 justify-content: space-around;
 }
 .box-cont6{
+    color: rgba(0, 0, 0, 0.482);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -460,3 +481,212 @@ footer{
     border-radius: 10px;
 
 }
+.fotter-text{
+    display: none;
+
+justify-content: center;
+padding: 20px;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.348);
+
+}
+@media(max-width: 600px){
+.img-boy{
+    position: relative;
+    top: 0px;
+    width: 450px;
+    z-index: 1;
+}
+.img-boy{
+  width: 450px;
+mask-image: linear-gradient(white 90%, transparent);
+}
+.app-next{
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    width: 250px;
+}
+
+.cont-row{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 700px;
+    left: 10px;
+    width: 370px;
+    height: 120px;
+    z-index: 2;
+    padding-top: 10px;
+}
+.img-group1 img{
+    display: none;
+}
+ .text-right{
+    position: absolute;
+   left: 335px;
+   top: 410px;
+   display: flex;
+   padding: 40px 20px;
+    background-color: #1a1f27;
+    z-index: 3;
+    font-size: 20px;
+ }   
+.btn-cont1 button{
+    display: none;
+}
+.cont-text1{
+    font-weight: 600;
+}
+.text-cont-row{
+font-size: 15px;
+}
+.big-text1{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    position: absolute;
+    left: 200px;
+    top: 85px;
+}
+
+.cont-btn01 button{
+    position: absolute;
+    font-size: 32px;
+    z-index: 3;
+top: 870px;
+left: 10px;
+}
+  .cont-btn01 img{
+ position: absolute;
+ width: 65px;
+ z-index: 3;
+top: 870px;
+left: 315px;
+  }  
+}
+
+    @media(max-width: 600px){
+        .container2{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+          width: 370px;
+          height: 240px;
+        }
+.cont-box2{
+
+
+}
+.cont-box1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    left: -40px;
+}
+ .text-row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: -40px;
+    width: 150px;
+ }  
+ .img-group780{
+    position: relative;
+    top: -150px;
+    left: 90px;
+    width: 300px;
+  height: 150px;
+ }
+        
+    }
+
+        @media(max-width: 600px){
+
+.vacansion{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.box-cont3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  padding: 10px;
+}
+
+.box-cont03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ width: 370px;
+
+}
+.row-cont3{
+    display: flex;
+    flex-direction: column;
+}
+.big-text-cont3{
+    font-size: 35px;
+}
+
+}
+
+ @media(max-width: 600px){
+.compani{
+    font-size: 28px;
+}
+
+.box-cont4{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn5{
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+.box-cont5{
+    background: none;
+}
+.btn-number5{
+    position: relative;
+    left: -35px;
+border: 1px solid rgba(0, 0, 0, 0.277);
+border-radius: 5px;
+font-size: 25px; 
+width: 360px;
+}    
+  .btn-number5 span{
+font-weight: 600;
+padding:20px;
+}
+.text-box05{
+    position: relative;
+    left: -125px;
+    font-size: 20px;
+    background-color: #F4F4F5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-img{
+    position: relative;
+    top: -93px;
+    left: 60px;
+    width: 130px;
+    height: 22px;
+}
+
+ }
